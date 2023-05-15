@@ -127,8 +127,9 @@ const App = () => {
   return (
     <div class='row'>
       <div class='column'>
+        <p>
         <input type='file' onChange={handleImageChange} accept='.jpg, .png' />
-        <br />
+        </p>
         <canvas
           id='main_canvas'
           width={GRAPH_SIZE[0]}
@@ -138,16 +139,17 @@ const App = () => {
         >
           Your browser does not support the HTML5 canvas element.
         </canvas>
-        <br/>
-        <input
-          type='checkbox'
-          checked={prettyPrint}
-          onChange={togglePrettyPrint}
-        />
-        <label>Pretty-print</label>
+        <p>
+          <input
+            type='checkbox'
+            checked={prettyPrint}
+            onChange={togglePrettyPrint}
+          />
+          <label>Pretty-print</label>
+        </p>
       </div>
       <div class='column'>
-        <label>Meme template</label>
+        <p><label>Meme template</label></p>
         <textarea
           rows={20}
           cols={80}
@@ -159,7 +161,7 @@ const App = () => {
           readOnly
         />
 
-        <label>Coordenadas:</label>
+        <p><label>Coordenadas:</label></p>
         <textarea
           rows={20}
           cols={80}
