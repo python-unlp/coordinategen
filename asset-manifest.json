@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coordinategen/static/css/main.f45bc143.css",
+    "main.js": "/coordinategen/static/js/main.feb84011.js",
+    "static/js/787.2e64080c.chunk.js": "/coordinategen/static/js/787.2e64080c.chunk.js",
+    "index.html": "/coordinategen/index.html",
+    "main.f45bc143.css.map": "/coordinategen/static/css/main.f45bc143.css.map",
+    "main.feb84011.js.map": "/coordinategen/static/js/main.feb84011.js.map",
+    "787.2e64080c.chunk.js.map": "/coordinategen/static/js/787.2e64080c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f45bc143.css",
+    "static/js/main.feb84011.js"
+  ]
+}
