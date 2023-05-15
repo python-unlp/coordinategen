@@ -24,9 +24,9 @@ const App = () => {
         )
 
         const canvas = document.getElementById('main_canvas')
-
+        const displayCoords = scaleCoordsFromOriginalToDisplay([naturalWidth, naturalHeight], scaleFactor)
         const ctx = canvas.getContext('2d')
-        ctx.drawImage(image, 0, 0, canvas.width, canvas.height)
+        ctx.drawImage(image, 0, 0, displayCoords[0], displayCoords[1])
 
         canvas.toBlob(blob => {
           resolve([blob, scaleFactor])
